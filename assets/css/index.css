@@ -82,7 +82,7 @@ body {
 
 @media(max-width: 1024px) and (min-aspect-ratio: 1/1){
     .logo-secondary-container img {
-        height: 100%;
+        height: auto;
         width: auto;
     }
 }
