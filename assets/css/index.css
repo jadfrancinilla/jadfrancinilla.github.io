@@ -71,8 +71,8 @@ body {
         flex-grow: 50;
     }
 
-    .logo-secondary-container{
-        height: auto;
+    .logo-secondary-container {
+        height: 100%;
     }
 
     .logo-secondary-container img {
@@ -86,9 +86,6 @@ body {
 
 .logo-secondary-container img {
     max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
 }
 
 .logo-secondary-container {
