@@ -67,8 +67,12 @@ body {
 }
 
 @media(max-width: 1024px){
-    .logo-secondary-container{
-        flex-grow: 1;
+    .logo-secondary-container, .logo-container{
+        flex-grow: 50;
+    }
+
+    .logo-secondary-container img {
+        align-self: flex-end;
     }
 }
 
