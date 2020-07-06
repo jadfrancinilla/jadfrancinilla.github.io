@@ -68,7 +68,7 @@ body {
 
 @media(max-width: 1024px){
     .logo-secondary-container{
-        flex-grow: 100;
+        flex-grow: 0;
     }
 }
 
