@@ -1,0 +1,95 @@
+/* Fonts */
+@font-face {
+    font-family: "Cera-Pro-Light";
+    src: url("/assets/fonts/Cera Pro Light.otf");
+}
+
+@font-face {
+    font-family: "Merriweather-Sans";
+    src: url("/assets/fonts/MerriweatherSans-Regular.ttf");
+}
+
+
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(148, 206, 195);
+
+    overflow: hidden;
+}
+
+@media(max-width: 1024px){
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Logo containers */
+.logo-container {
+    flex-grow: 100;
+    flex-basis: 0;
+    align-self: center;
+    text-align: center;
+}
+
+.logo-container .coming-soon {
+    font-family: "Cera-Pro-Light", sans-serif;
+    color: #333333;
+    font-size: 24pt;
+    margin-left: 27.5%;
+    margin-top: -20px;
+    text-align: left;
+}
+
+@media(max-width: 1024px){
+    .logo-container .coming-soon {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+.logo-secondary-container{
+    flex-grow: 75;
+    flex-basis: 0;
+    align-self: flex-end;
+    display: flex;
+    align-content: flex-end;
+}
+
+@media(max-width: 1024px){
+    .logo-secondary-container{
+        flex-grow: unset;
+    }
+}
+
+.logo-container img {
+    width: 95%;
+}
+
+.logo-secondary-container img {
+    max-width: 100%;
+}
+
+.logo-secondary-container {
+    margin-right: 5%;
+}
+
+/* Footnote */
+.footnote {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -207px;
+    color: #fff;
+    font-family: "Merriweather-Sans", sans-serif;
+}
